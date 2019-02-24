@@ -24,6 +24,7 @@ namespace Drill_1_Variables_and_Data_Types
             Console.WriteLine("How many hours did you study today?");
             int hours = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("Thank you for your answers.  An Instructor will respond to this shortly.  Have a fantastic Day!");
+            Console.WriteLine(help);
             Console.ReadLine();
 
         }
