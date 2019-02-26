@@ -11,7 +11,7 @@ namespace Branching_Drill
 
             //The user must then be prompted for the package weight.
             Console.WriteLine("What is the package weight");
-            int weight = Convert.ToInt32(Console.ReadLine());
+            decimal weight = Convert.ToDecimal(Console.ReadLine());
 
             //If the weight is greater than 50, display the error message, “Package too heavy to be shipped via Package Express.Have a good day.” At this point the program would end.
             if (weight > 50)
@@ -25,17 +25,17 @@ namespace Branching_Drill
             else
             {
                 Console.WriteLine("What is the package width");
-                int width = Convert.ToInt32(Console.ReadLine());
+                decimal width = Convert.ToDecimal(Console.ReadLine());
 
                 //Then the package height.
                 Console.WriteLine("What is the package height");
-                int height = Convert.ToInt32(Console.ReadLine());
+                decimal height = Convert.ToDecimal(Console.ReadLine());
 
                 //Then the package length.
                 Console.WriteLine("What is the package length");
-                int length = Convert.ToInt32(Console.ReadLine());
+                decimal length = Convert.ToDecimal(Console.ReadLine());
 
-                int dimensions = width + height + length;
+                decimal dimensions = width + height + length;
 
                 //If the sum of the dimensions is greater than 50, display the error message, “Package too big to be shipped via Package Express.” At this point the program would end.
                 if (dimensions > 50)
@@ -48,9 +48,9 @@ namespace Branching_Drill
                 //The result of that calculation is the quote.
                 else
                 {
-                    int quote = (dimensions * weight / 100);
+                    decimal quote = (dimensions * weight / 100);
                     //Display the quote to the user as a dollar amount.
-                    Console.WriteLine("You shipment quote is: $" + quote + ".00");
+                    Console.WriteLine("You shipment quote is: $" + quote);
                     Console.WriteLine("Thank You!");
                     Console.ReadLine();
                 }
