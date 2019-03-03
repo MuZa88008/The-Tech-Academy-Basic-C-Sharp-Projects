@@ -10,35 +10,35 @@ namespace String_Functions_Drill
     {
         static void Main(string[] args)
         {
-            //Concatenate three strings.
+            ////Concatenate three strings.
 
-            string string1 = "Hello, ";
-            string string2 = "my name is ";
-            string string3 = "Zach!";
-            string phrase = string1 + string2 + string3;
+            //string string1 = "Hello, ";
+            //string string2 = "my name is ";
+            //string string3 = "Zach!";
+            //string phrase = string1 + string2 + string3;
 
-            Console.WriteLine("String 1 = " + string1);
-            Console.WriteLine("String 2 = " + string2);
-            Console.WriteLine("String 3 = " + string3);
-            Console.WriteLine("\nAfter concatenation...:  " + phrase);
-            Console.WriteLine("Press ENTER to continue...");
-            Console.ReadLine();
-
-
-            //Convert a string to uppercase.
-
-            Console.WriteLine("\n\nConverts above concatenated phrase to UPPER...:");
-            //string1 = string1.ToUpper();
-            //string2 = string2.ToUpper();
-            //string3 = string3.ToUpper();
             //Console.WriteLine("String 1 = " + string1);
             //Console.WriteLine("String 2 = " + string2);
             //Console.WriteLine("String 3 = " + string3);
-            //phrase = string1 + string2 + string3;
-            phrase = phrase.ToUpper();
-            Console.WriteLine(phrase);
-            Console.WriteLine("Press ENTER to continue...");
-            Console.ReadLine();
+            //Console.WriteLine("\nAfter concatenation...:  " + phrase);
+            //Console.WriteLine("Press ENTER to continue...");
+            //Console.ReadLine();
+
+
+            ////Convert a string to uppercase.
+
+            //Console.WriteLine("\n\nConverts above concatenated phrase to UPPER...:");
+            ////string1 = string1.ToUpper();
+            ////string2 = string2.ToUpper();
+            ////string3 = string3.ToUpper();
+            ////Console.WriteLine("String 1 = " + string1);
+            ////Console.WriteLine("String 2 = " + string2);
+            ////Console.WriteLine("String 3 = " + string3);
+            ////phrase = string1 + string2 + string3;
+            //phrase = phrase.ToUpper();
+            //Console.WriteLine(phrase);
+            //Console.WriteLine("Press ENTER to continue...");
+            //Console.ReadLine();
 
 
             //Create a Stringbuilder and build a paragraph of text, one sentence at a time.

@@ -17,7 +17,7 @@ class Program
             Console.WriteLine("Pick a number between 0-7");
             int arrayPosition = Convert.ToInt16(Console.ReadLine());
 
-            if (arrayPosition < userName.Length)
+            if (arrayPosition < stringArray.Length)
             {
                 Console.WriteLine(stringArray[arrayPosition] + ", " + userName);
                 Console.WriteLine("Press q to go to the next drill or ENTER to try this drill again...  ");
