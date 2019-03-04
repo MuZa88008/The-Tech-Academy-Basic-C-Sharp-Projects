@@ -16,63 +16,21 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            //string[] userInputs = new string[4];
+            //string[] stringArray = new string[4];
 
-            //List<string> userInputs = new List<string>();
-            //int i = 0;
-
-            //do
+            //for (int i = 0; i < stringArray.Length; i++)
             //{
-            //    Console.WriteLine("Please enter some text for our test array...:");
-            //    userInputs.Add(Console.ReadLine());
-            //    i++;
+            //    Console.WriteLine("Enter some text for our array.:");
+            //    string textEntry = Console.ReadLine();
+            //    stringArray[i] = textEntry;
             //}
-            //while (i <= 4);
 
-            //string[] userinputs = userInputs.ToArray();
-
-            //int j = 0;
-            //do
+            //for (int j = 0; j < stringArray.Length; j++)
             //{
-            //    Console.WriteLine(userInputs[j]);
-            //    j++;
-            //}
-            //while (j <= 4);
-            //Console.ReadLine();
-
-
-
-
-            //================================================================================================
-            //================================================================================================
-            // ALTERNATE SOLUTION using foreach...
-            //// 1.Create a one-dimensional Array of strings.
-            //// Ask the user to input some text.
-            //// Create a loop that goes through each string in the Array, adding the user’s text to the string.
-            //// Then create a loop that prints off each string in the Array on a separate line.
-            //================================================================================================
-            //================================================================================================
-
-            //List<string> userInputs = new List<string>();
-            //int i = 0;
-
-            //do
-            //{
-            //    Console.WriteLine("Please enter some text for our test array...:");
-            //    userInputs.Add(Console.ReadLine());
-            //    i++;
-            //}
-            //while (i <= 4);
-
-            //foreach (string userInput in userInputs)   
-            //{
-            //    Console.WriteLine(userInput);
+            //    Console.WriteLine(stringArray[j]);
             //}
 
             //Console.ReadLine();
-
-
-
 
             //================================================================================================
             //================================================================================================
@@ -151,21 +109,20 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            //List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the",  "is", "unique", "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop", "iterates", "through", "and", "then", "displays"};
+            //List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
 
             //Console.WriteLine("Search list for (enter text)...: ");
             //string searchText = Console.ReadLine();
 
-            //foreach (string name in names)  
+            //foreach (string name in names)
             //{
             //    if (name == searchText)
             //    {
-            //        Console.WriteLine("The text you searched for is at index " + names.IndexOf(searchText) + " of the array.");
+            //        Console.WriteLine("The text you searched for is at index [" + names.IndexOf(searchText) + "] of the List.");
             //    }
-            //    else
-            //    {
-                   
-            //    }
+
             //}
             //Console.ReadLine();
 
@@ -175,28 +132,31 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique", "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop", "iterates", "through", "and", "then", "displays" };
-
-            Console.WriteLine("Search list for (enter text)...: ");
-            string searchText = Console.ReadLine();
-
-            foreach (string name in names)
-            {
-                if (name == searchText)
-                {
-                    Console.WriteLine("The text you searched for is at index " + names.IndexOf(searchText) + " of the array.");
-                }
-                else
-                {
-
-                }
-            }
-            Console.WriteLine("The text you entered isn't in the List.");
-            Console.ReadLine();
 
 
 
+            //List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
 
+            //Console.WriteLine("Enter text...: ");
+            //string searchText = Console.ReadLine();
+
+            //foreach (string name in names)
+            //{
+            //    if (name == searchText)
+            //    {
+            //        Console.WriteLine("The text you searched for is at index [" + names.IndexOf(searchText) + "] of the List.");
+            //    }
+
+            //}
+
+            //if (!names.Contains(searchText))
+            //{
+            //    Console.WriteLine("The text you entered is not in the List");
+            //}
+
+            //Console.ReadLine();
 
 
             //================================================================================================
@@ -205,6 +165,24 @@ namespace Iteration_Drill
             // Create a loop that iterates through the list and then displays the indices of the array that contain matching text on the screen.
             //================================================================================================
             //================================================================================================
+
+            List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+                "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop",
+                "iterates", "through", "and", "then", "displays" };
+
+            Console.WriteLine("Enter text...: ");
+            string searchText = Console.ReadLine();
+
+            int z = 0;
+            do
+            {
+                Console.WriteLine(names[z]);
+                z++;
+            }
+            while (z <= names.Count);
+
+            Console.ReadLine();
+
 
 
 
