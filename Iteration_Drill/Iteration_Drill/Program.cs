@@ -16,21 +16,21 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            //string[] stringArray = new string[4];
+            string[] stringArray = new string[4];
 
-            //for (int i = 0; i < stringArray.Length; i++)
-            //{
-            //    Console.WriteLine("Enter some text for our array.:");
-            //    string textEntry = Console.ReadLine();
-            //    stringArray[i] = textEntry;
-            //}
+            for (int i = 0; i < stringArray.Length; i++)
+            {
+                Console.WriteLine("Enter some text strings for our array.:");
+                string textEntry = Console.ReadLine();
+                stringArray[i] = textEntry;
+            }
 
-            //for (int j = 0; j < stringArray.Length; j++)
-            //{
-            //    Console.WriteLine(stringArray[j]);
-            //}
+            for (int j = 0; j < stringArray.Length; j++)
+            {
+                Console.WriteLine(stringArray[j]);
+            }
 
-            //Console.ReadLine();
+            Console.ReadLine();
 
             //================================================================================================
             //================================================================================================
@@ -166,22 +166,27 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            List<string> names = new List<string>() { "create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
-                "ask", "user", "to", "select", "text", "search", "for", "index", "array", "that", "contains", "matching", "on", "screen", "loop",
-                "iterates", "through", "and", "then", "displays" };
+            //List<string> names = new List<string>() { "create","create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to","create", "select", "text", "search", "for", "index", "array","create", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
 
-            Console.WriteLine("Enter text...: ");
-            string searchText = Console.ReadLine();
+            //Console.WriteLine("Enter text...: ");
+            //string searchText = Console.ReadLine();
 
-            int z = 0;
-            do
-            {
-                Console.WriteLine(names[z]);
-                z++;
-            }
-            while (z <= names.Count);
+            //int z = 0;
+            //do
+            //{
+            //    if (names[z] == searchText)
+            //    {
+            //        Console.WriteLine("Index [" + z + "]");
+            //    }
+            //    z++;
 
-            Console.ReadLine();
+
+            //}
+            //while (z < names.Count);
+
+            //Console.ReadLine();
 
 
 
@@ -194,9 +199,30 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
+            //List<string> names = new List<string>() { "create","create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to","create", "select", "text", "search", "for", "index", "array","create", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
 
+            //Console.WriteLine("Enter text...: ");
+            //string searchText = Console.ReadLine();
 
+            //int z = 0;
+            //do
+            //{
+            //    if (names[z] == searchText)
+            //    {
+            //        Console.WriteLine("Index [" + z + "]");
+            //    }
+            //    z++;
+            //}
+            //while (z < names.Count);
 
+            //if (!names.Contains(searchText))
+            //{
+            //    Console.WriteLine("The text you entered is not in the List");
+            //}
+
+            //Console.ReadLine();
 
             //================================================================================================
             //================================================================================================
