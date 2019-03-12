@@ -16,21 +16,21 @@ namespace Iteration_Drill
             //================================================================================================
             //================================================================================================
 
-            string[] stringArray = new string[4];
+            //string[] stringArray = new string[4];
 
-            for (int i = 0; i < stringArray.Length; i++)
-            {
-                Console.WriteLine("Enter some text strings for our array.:");
-                string textEntry = Console.ReadLine();
-                stringArray[i] = textEntry;
-            }
+            //for (int i = 0; i < stringArray.Length; i++)
+            //{
+            //    Console.WriteLine("Enter some text strings for our array.:");
+            //    string textEntry = Console.ReadLine();
+            //    stringArray[i] = textEntry;
+            //}
 
-            for (int j = 0; j < stringArray.Length; j++)
-            {
-                Console.WriteLine(stringArray[j]);
-            }
+            //for (int j = 0; j < stringArray.Length; j++)
+            //{
+            //    Console.WriteLine(stringArray[j]);
+            //}
 
-            Console.ReadLine();
+            //Console.ReadLine();
 
             //================================================================================================
             //================================================================================================
@@ -214,8 +214,54 @@ namespace Iteration_Drill
             //        Console.WriteLine("Index [" + z + "]");
             //    }
             //    z++;
+
+
             //}
             //while (z < names.Count);
+
+            //if (!names.Contains(searchText))
+            //{
+            //    Console.WriteLine("The text you entered is not in the List");
+            //}
+
+            //Console.ReadLine();
+
+
+            //================================================================================================
+            //================================================================================================
+            // 11.Create a List of strings that has at least two identical strings in the List. 
+            // Create a foreach loop that evaluates each item in the list, 
+            // and displays a message showing the string and whether or not it has already appeared in the list.
+            //================================================================================================
+
+            // This one is clunky and not as simple as the next solution (see below)
+
+            //================================================================================================
+
+
+            //List<string> names = new List<string>() { "create","create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to","create", "select", "text", "search", "for", "index", "array","create", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
+
+            //Console.WriteLine("Enter text...: ");
+            //string searchText = Console.ReadLine();
+
+            //if (names.Contains(searchText))
+            //{
+            //    Console.WriteLine("Your string:   " + searchText + ",   occurs this many times in the list...");
+
+            //}
+
+
+            //foreach (string name in names)
+            //{
+            //    if (name == searchText)
+            //    {
+            //        Console.WriteLine(name);
+            //    }
+            //}
+
+
 
             //if (!names.Contains(searchText))
             //{
@@ -230,8 +276,40 @@ namespace Iteration_Drill
             // Create a foreach loop that evaluates each item in the list, 
             // and displays a message showing the string and whether or not it has already appeared in the list.
             //================================================================================================
+
+            //This is a better solution
+
             //================================================================================================
 
+            //List<string> names = new List<string>() { "create","create", "a", "list", "of", "strings", "where", "each", "item", "in", "the", "is", "unique",
+            //    "ask", "user", "to","create", "select", "text", "search", "for", "index", "array","create", "that", "contains", "matching", "on", "screen", "loop",
+            //    "iterates", "through", "and", "then", "displays" };
+
+            //Console.WriteLine("Enter text...: ");
+            //string searchText = Console.ReadLine();
+            //List<string> passingListForCount = new List<string>();
+
+
+            //foreach (string name in names)
+            //{
+            //    if (name == searchText)
+            //    {
+            //        passingListForCount.Add(name);
+            //    }
+            //}
+
+            //Console.WriteLine("The text you searched for occurs " + passingListForCount.Count + " time(s) in the list");
+
+            //Console.ReadLine();
+
         }
+
     }
 }
+
+
+
+//string occur = "Test1";
+//IList<String> words = new List<string>() { "Test1", "Test2", "Test3", "Test1" };
+
+//int count = words.Where(x => x.Equals(occur)).Count();
