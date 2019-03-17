@@ -71,14 +71,15 @@ namespace ExceptionHandlingDrill
             try
             {
                 Console.WriteLine("This chunk of code is in a try/catch block.");
+                Console.WriteLine("The numbers 10, 20, and 30 are already in memory.");
                 List<int> integers = new List<int>() { 10, 20, 30 };
-            Console.WriteLine("Enter a number...: ");
+            Console.WriteLine("Enter a number to use...: ");
             int number = Convert.ToInt32(Console.ReadLine());
             
                 foreach (int integer in integers)
                 {
                     float quotient = integer / number;
-                    Console.WriteLine(quotient);
+                    Console.WriteLine(number + " goes into " + integer + ": " + quotient + " times.");
                 }
 
                 Console.ReadLine();
@@ -86,14 +87,17 @@ namespace ExceptionHandlingDrill
             catch (DivideByZeroException zeroex)    
             {
                 Console.WriteLine(zeroex.Message);
+                Console.ReadLine();
             }
             catch (FormatException formatex)
             {
                 Console.WriteLine(formatex.Message);
+                Console.ReadLine();
             }
             catch (Exception generalex)
             {
                 Console.WriteLine(generalex.Message);
+                Console.ReadLine();
             }
 
             Console.WriteLine("The program has emerged from the try/catch block");
