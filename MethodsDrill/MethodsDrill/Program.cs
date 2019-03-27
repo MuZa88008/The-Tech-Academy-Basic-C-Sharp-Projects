@@ -22,22 +22,12 @@ namespace MethodsDrill
             Console.WriteLine(userInput + " - " + staticInt + " = " + result2);
             Console.WriteLine(userInput + " * " + staticInt + " = " + result3);
 
+            Math math = new Math();
+
+
             Console.ReadKey();
         }
 
-        public static int Add (int num1, int num2)
-        {
-            return num1 + num2;
-        }
-
-        public static int Subtract (int num1, int num2)
-        {
-            return num1 - num2;
-        }
-
-        public static int Multiply (int num1, int num2)
-        {
-            return num1 * num2;
-        }
+      
     }
 }
