@@ -10,20 +10,19 @@ namespace MethodsDrill
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Please enter a number to perform some math functions on: ");
+            Console.WriteLine("Please enter a whole number to perform some math functions on: ");
             int userInput = Convert.ToInt32(Console.ReadLine());
             int staticInt = 10;
 
-            int result1 = Add(userInput,staticInt);
-            int result2 = Subtract(userInput, staticInt);
-            int result3 = Multiply(userInput, staticInt);
+            Math math = new Math();
+
+            int result1 = math.Add(userInput,staticInt);
+            int result2 = math.Subtract(userInput, staticInt);
+            int result3 = math.Multiply(userInput, staticInt);
 
             Console.WriteLine(userInput + " + " + staticInt + " = " + result1);
             Console.WriteLine(userInput + " - " + staticInt + " = " + result2);
             Console.WriteLine(userInput + " * " + staticInt + " = " + result3);
-
-            Math math = new Math();
-
 
             Console.ReadKey();
         }
