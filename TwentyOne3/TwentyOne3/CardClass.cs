@@ -8,11 +8,11 @@ namespace TwentyOne3
 {
     public class CardClass
     {
-        public CardClass()
-        {
-            Suit = "Spades";
-            Face = "Two";
-        }
+        //public CardClass()
+        //{
+        //    Suit = "Spades";
+        //    Face = "Two";
+        //}
 
         public string Suit { get; set; }   
         public string Face { get; set; }
