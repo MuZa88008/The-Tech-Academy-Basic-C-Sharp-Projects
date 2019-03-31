@@ -17,5 +17,12 @@ namespace Methods_Classes_3
         {
             return num1 * 100;
         }
+
+        public int math(string string1)
+        {
+            int temp;
+            int.TryParse(string1, out temp);
+            return temp* 200;
+        }
     }
 }

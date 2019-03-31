@@ -11,10 +11,13 @@ namespace Methods_Classes_3
         static void Main(string[] args)
         {
             Math math = new Math();
-            Console.WriteLine(math.math(12));
-            Console.ReadLine();
 
-            Console.WriteLine(math.math(10));
+            Console.WriteLine(math.math(12));
+
+            Console.WriteLine(math.math(10.33m));
+
+            Console.WriteLine(math.math("200"));
+
             Console.ReadLine();
         }
     }
