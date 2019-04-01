@@ -1,0 +1,7 @@
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\bin\Debug\Methods_Classes_5.exe.config
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\bin\Debug\Methods_Classes_5.exe
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\bin\Debug\Methods_Classes_5.pdb
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\obj\Debug\Methods_Classes_5.csprojAssemblyReference.cache
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\obj\Debug\Methods_Classes_5.csproj.CoreCompileInputs.cache
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\obj\Debug\Methods_Classes_5.exe
+C:\Users\Zach Murray\Desktop\Methods_Classes_5\Methods_Classes_5\obj\Debug\Methods_Classes_5.pdb
