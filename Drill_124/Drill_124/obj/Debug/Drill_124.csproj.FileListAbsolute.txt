@@ -1,0 +1,7 @@
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\bin\Debug\Drill_124.exe.config
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\bin\Debug\Drill_124.exe
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\bin\Debug\Drill_124.pdb
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\obj\Debug\Drill_124.csprojAssemblyReference.cache
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\obj\Debug\Drill_124.csproj.CoreCompileInputs.cache
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\obj\Debug\Drill_124.exe
+C:\Users\Zach Murray\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Drill_124\Drill_124\obj\Debug\Drill_124.pdb
