@@ -10,27 +10,10 @@ namespace Methods_Classes_5
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Enter a Number: ");
+            int input = Convert.ToInt32(Console.ReadLine());
             Divide divide = new Divide();
-
-            //-----------Comment Break Here for Int ---------------------------------
-            //Console.WriteLine("Enter a Number: ");
-            //int input = Convert.ToInt32(Console.ReadLine());
-            //int output;
-
-            //divide.Math(input, out output);
-
-            //Console.WriteLine(output);
-            //Console.ReadLine();
-
-
-            // -------------------Comment Break Here for Decimal-------------------------
-            Console.WriteLine("Enter a Decimal: ");
-            decimal input = Convert.ToDecimal(Console.ReadLine());
-            decimal example2;
-
-            divide.Math(input, out example2);
-
-            Console.WriteLine(example2);
+            divide.Math(input);
             Console.ReadLine();
 
         }
