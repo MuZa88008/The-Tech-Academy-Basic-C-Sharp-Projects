@@ -12,6 +12,11 @@ namespace Drill_124
         {
             Employee employee = new Employee() { FirstName = "Sample", LastName = "Student" };
             employee.SayName();
+            employee.Quit();
+
+            IQuittable quit = new Employee() { FirstName = "Sam", LastName = "Stud" };           
+            quit.Quit();
+
             Console.ReadLine();
         }
     }
