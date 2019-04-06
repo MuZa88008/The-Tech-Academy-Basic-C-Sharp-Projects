@@ -10,18 +10,21 @@ namespace Drill_124
     {
         static void Main(string[] args)
         {
-            Employee employee1 = new Employee() { FirstName = "Sample", LastName = "Student" };
+            Employee employee1 = new Employee() { FirstName = "Sample", LastName = "Student", ID = 001 };
             employee1.SayName();
             employee1.Quit();
 
             IQuittable quit = new Employee() { FirstName = "Sam", LastName = "Stud" };           
             quit.Quit();
 
-            Employee employee2 = new Employee() { FirstName = "Zach", LastName = "Murray" };
+            Employee employee2 = new Employee() { FirstName = "Zach", LastName = "Murray", ID = 002 };
+
+
 
             //string ID = employee.FirstName + employee.LastName;
             //Console.WriteLine(ID);
 
+            Console.Write("Employee's ID is same: ");
             Console.WriteLine(employee1 == employee2);
 
 
@@ -30,22 +33,6 @@ namespace Drill_124
         }
 
 
-        public static bool operator == (Employee employee1, Employee employee2)
-        {
-            if ((employee1.FirstName == employee2.FirstName) && (employee1.LastName == employee2.LastName))
-            {
-                return true;
-            }
-            return false;
-        }
-
-        public static bool operator != (Employee employee1, Employee employee2)
-        {
-            if ((employee1.FirstName != employee2.FirstName) || (employee1.LastName != employee2.LastName))
-            {
-                return true;
-            }
-            return false;
-        }
+        
     }
 }

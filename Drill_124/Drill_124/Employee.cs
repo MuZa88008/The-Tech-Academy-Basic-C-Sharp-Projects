@@ -16,5 +16,24 @@ namespace Drill_124
         {
             Console.WriteLine(FirstName + " " + LastName + " has quit!!");
         }
+
+        public static bool operator ==(Employee employee1, Employee employee2)
+        {
+            if ((employee1.ID == employee2.ID) && (employee1.ID == employee2.ID))
+            {
+                return true;
+            }
+            return false;
+        }
+
+        public static bool operator !=(Employee employee1, Employee employee2)
+        {
+            if ((employee1.ID != employee2.ID) || (employee1.ID != employee2.ID))
+            {
+                return true;
+            }
+            return false;
+        }
     }
+
 }
